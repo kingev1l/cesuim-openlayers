@@ -180,7 +180,7 @@ export default {
     },
     // google地图
     addGoogleLayer() {
-      return addXYZLayer("http://gac-geo.googlecnapps.cn/maps/vt?lyrs=s,h&hl=zh-CN&gl=CN&x={x}&y={y}&z={z}&src=app&scale=2");
+      return addXYZLayer("http://gac-geo.googlecnapps.club/maps/vt?lyrs=s,h&hl=zh-CN&gl=CN&x={x}&y={y}&z={z}&src=app&scale=2");
     },
 
     /**

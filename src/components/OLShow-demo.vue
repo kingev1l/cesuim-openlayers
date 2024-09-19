@@ -379,7 +379,7 @@ export default {
       const AmapLayer = new TileLayer({
         source: new XYZ({
           projection: "GCJ-02",
-          url: "http://gac-geo.googlecnapps.cn/maps/vt?lyrs=s,h&hl=zh-CN&gl=CN&x={x}&y={y}&z={z}&src=app&scale=2",
+          url: "http://gac-geo.googlecnapps.club/maps/vt?lyrs=s,h&hl=zh-CN&gl=CN&x={x}&y={y}&z={z}&src=app&scale=2",
           wrapX: false,
           // 投影坐标系
           tileGrid: new WMTSTileGrid({
